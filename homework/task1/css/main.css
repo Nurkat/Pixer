@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+       
+    }
+    .site-header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .site-list{
+      display: flex;
+      gap: 40px;  
+      align-items: center;
+      
+    }
+    
+    .site-list>a{
+        background-color: rgb(99, 99, 248);
+        color: white;
+        border-radius: 6px;
+        padding: 10px;
+        
+
+    }
+.site-main{
+padding-top: 90px;
+margin-bottom: 120px;
+
+}
+.site-wrapper{
+    display: flex;
+    gap: 200px;
+    
+    
+}
+  .main-site-text{
+    width: 450px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+  } 
+  .main-site-title{
+    font-size: 35px;
+  }
+  .main-site-text>p{
+    font-size: 20px;
+  }
+  .main-site-btn{
+    width: 250px;
+    text-align: center;
+     background-color: rgb(112, 112, 245);
+    color: white;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+  }
+
+
+.site-section-text{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: center;
+}
+.site-section-text>h3{
+    font-size: 33px;
+}
+.site-section-text>p{
+    font-size: 20px;
+}
+.site-section-links{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+padding: 15px;
+    gap: 16px;
+}
+.site-section-links>button{
+    border: 2px solid rgb(112, 112, 245);
+    background-color: rgb(112, 112, 245);
+    padding: 5px;
+    color: white;
+    border-radius:5px ;
+}
+
+        
+
+    
+
+        
+    
